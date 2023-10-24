@@ -78,8 +78,8 @@ class Email {
         $this->mailer = new Mailer($transport);
         $this->mail = (new SymfonyEmail());
 
-        $this->mail->from("seyi@drive45.com");
-        $this->mail->replyTo("seyi@drive45.com");
+        $this->mail->from("seyi@product.com");
+        $this->mail->replyTo("seyi@product.com");
         $this->link = null;
 
     }
